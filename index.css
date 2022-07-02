@@ -1,0 +1,27 @@
+/* 导航样式 */
+.nav-div {
+  width: 1080px;
+  height: 92px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+.nav-ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.nav-li {
+  height: 92px;
+  float: left;
+  padding-right: 18px;
+  padding-left: 18px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.nav-a {
+  vertical-align: center;
+  text-align: center;
+  display: block;
+  /*padding: 8px;*/
+}
