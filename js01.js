@@ -1,0 +1,1 @@
+alert('hello word外嵌式')
