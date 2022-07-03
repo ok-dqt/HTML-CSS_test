@@ -3,25 +3,131 @@
   width: 1080px;
   height: 92px;
   margin: 0 auto;
-  background: #ffffff;
+  /*background: rgba(0, 0, 0, 0.05);*/
+}
+.nav-div-text {
+  position: absolute;
+  top: 0px;
+  width: 1080px;
+  height: 92px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.nav-touxiang {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.nav-a-baihe {
+  position: absolute;
+  top: 36px;
+  left: 74px;
 }
 .nav-ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  position: absolute;
+  top: 36px;
+  left: 174px;
 }
 .nav-li {
-  height: 92px;
   float: left;
-  padding-right: 18px;
-  padding-left: 18px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
 }
 .nav-a {
-  vertical-align: center;
-  text-align: center;
   display: block;
   /*padding: 8px;*/
+  /*background-color: rgba(0, 0, 0, 0.05);*/
+  padding: 0px 24px;
+  /*
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  */
+}
+a {
+  text-decoration: none;
+}
+/* 链接默认样式 */
+a:link {
+  color: rgba(0, 0, 0, 1);
+}
+/* 链接已点击样式 */
+a:visited {
+  color: rgba(0, 0, 0, 1);
+}
+/* 链接悬浮样式 */
+a:hover {
+  color: rgba(0, 0, 0, 0.45);
+}
+/* 链接点击样式 */
+a:active {
+  color: rgba(0, 0, 0, 1);
+}
+.text-quote {
+  margin: 30px auto 0px;
+  width: 1020px;
+  height: 170px;
+  background: rgba(0, 0, 0, 0.04);
+}
+#quote {
+  margin: 0px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "songti sc";
+}
+#quote-text {
+  margin: 0px;
+  padding-right: 30px;
+  padding-top: 30px;
+  text-align: right;
+  font-size: 14px;
+  font-family: "songti sc";
+  color: rgba(0, 0, 0, 0.65);
+}
+.text {
+  margin: 30px auto 0px;
+  width: 1020px;
+  height: 800px;
+  background: rgba(116, 74, 74, 0);
+}
+.text-style {
+  width: 1020px;
+  height: 180px;
+  /* background: rgba(0, 0, 0, 0.1); */
+}
+.text-img {
+  float: left;
+  /*position: absolute;*/
+  margin: 30px;
+  width: 240px;
+  height: 120px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.text-style-text {
+  float: right;
+  margin: 30px 30px 30px 0px;
+  width: 690px;
+  height: 120px;
+}
+.text-h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.text-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 20px;
+}
+.text-time {
+  margin: 24px 0 0 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 18px;
 }
